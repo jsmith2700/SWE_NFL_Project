@@ -6,10 +6,10 @@
 
 .slider{
   position: relative;
-  height: 80px;
   display:flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .image {
@@ -19,28 +19,23 @@
   height: 150px;
   align-items: center;
   border-radius: 10px;
-  border: 3px solid #000;
 
 }
 
 .up-arrow {
   display: flex;
-  flex-direction: space-around;
   font-size: 2rem;
   color: #000;
   cursor: pointer;
   user-select: none;
-  border:3px solid #000;
 }
 
 .down-arrow{
   display: flex;
-  flex-direction: column;
   font-size: 2rem;
   color: #000;
   cursor: pointer;
   user-select: none;
-  border:3px solid #000;
 }
 
 .bg{
@@ -58,12 +53,7 @@
 
 }
 
-.teamsText{
-  position: absolute;
-  align-items: flex-start;
-  justify-content: center;
-  top:0%;
-}
+
 
 .centerBox{
   height: 40%;
@@ -88,6 +78,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-direction: column;
 }
 
 .teamSelectRight{
