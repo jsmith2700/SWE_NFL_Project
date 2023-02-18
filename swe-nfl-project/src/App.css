@@ -12,6 +12,10 @@
   flex-direction: column;
 }
 
+.teamText{
+  margin-bottom: 20px;
+}
+
 .image {
   flex-direction: column;
   position: relative;
@@ -19,6 +23,24 @@
   height: 150px;
   align-items: center;
   border-radius: 10px;
+
+}
+
+.imageTop {
+  flex-direction: column;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+
+
+}
+
+.imageBottom {
+  flex-direction: column;
+  width: 80px;
+  height: 80px;
+  align-items: center;
 
 }
 
@@ -56,7 +78,7 @@
 
 
 .centerBox{
-  height: 40%;
+  max-height: 80%;
   max-width: 70%;
   position: relative;
   display: flex;
@@ -68,12 +90,20 @@
   box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
   padding: 40px;
   text-align: center;
-  letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Roboto Condensed';
   border-style: double;
+  flex-direction: column
 ;}
 
+
+.teamSelectBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 15px;
+}
 .teamSelect{
   display: flex;
   align-items: center;

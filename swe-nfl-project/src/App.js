@@ -9,11 +9,16 @@ function App() {
   return (  
       <div class="bg">
         <div class="centerBox">
-          <div class="teamSelect">
-            <ImageSlider slides={SliderData}/>
+          <div class="teamText">
+            Select Two Teams to Compare Statistics
           </div>
-          <div class="teamSelectRight">
-            <ImageSlider slides={SliderData}/>
+          <div class='teamSelectBox'>
+            <div class="teamSelect">
+              <ImageSlider slides={SliderData}/>
+            </div>
+            <div class="teamSelectRight">
+              <ImageSlider slides={SliderData}/>
+            </div>
           </div>
       </div>
     </div>

@@ -26,8 +26,15 @@ const ImageSlider = ({slides}) => {
                 return(
                     <div classname={index === current ? 'slide active' : 'slide'} key= 
                     {index}>
+                        {index - 1 === current && (
+                            <img src={slide.image} alt="NFL Team" className="imageTop"/>
+
+                        )}
                         {index === current && (
                             <img src={slide.image} alt="NFL Team" className="image"/>
+                        )}
+                        {index + 1 === current && (
+                            <img src={slide.image} alt="NFL Team" className="imageBottom"/>    
                         )}
 
                         
