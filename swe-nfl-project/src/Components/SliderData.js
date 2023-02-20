@@ -2,7 +2,17 @@ export const SliderData = [
    
    { 
         /*Cardinals*/
-        image: 'https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/ARI'
+        image: 'https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/ARI',
+        pointsAllowed: 26.4,
+        rushYPGAllowed: 118.6,
+        passYPGAllowed: 230.3,
+        PassTDAllowed: 1.7,
+        rushTDAllowed: 1.24,
+        int: 11,
+        fumbles: 1.47,
+        sacks: 2.1,
+        
+
     },
     {
         /*Falcons*/
