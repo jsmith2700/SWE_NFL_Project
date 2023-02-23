@@ -8,6 +8,7 @@ import ImageSlider from './Components/ImageSlider';
 function App() {
   return (  
       <div class="bg">
+        <div class="navigation"></div>
         <div class="centerBox">
           <div class="teamText">
             Select Two Teams to Compare Statistics
@@ -16,6 +17,7 @@ function App() {
             <div class="teamSelect">
               <ImageSlider slides={SliderData}/>
             </div>
+            <div class="middleBox">vs</div>
             <div class="teamSelectRight">
               <ImageSlider slides={SliderData}/>
             </div>

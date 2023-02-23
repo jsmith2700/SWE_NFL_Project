@@ -6,6 +6,7 @@ url = 'https://www.nfl.com/stats/team-stats/defense/receiving/2022/reg/all'
 response = requests.get(url)
 content = response.content
 
+
 soup = BeautifulSoup(content, 'html.parser')
 
 
