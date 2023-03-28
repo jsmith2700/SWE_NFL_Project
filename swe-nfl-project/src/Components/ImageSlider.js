@@ -65,7 +65,7 @@ const ImageSlider = ({slides}) => {
             
             <th>Offense:</th>
             <tr>
-                <td class="statsCategory">Pass Yards</td>
+                <td class="statsCategory" id = "passYards">Pass Yards</td>
                 <td class="statsCategory">{O_Passing[current].stats.PassYds}</td>
             </tr>
             <tr>
@@ -91,7 +91,7 @@ const ImageSlider = ({slides}) => {
 
             <th>Defense:</th>
             <tr>
-                <td class="statsCategory">Pass Yards Against</td>
+                <td class="statsCategory"><span class="pYardsA">Pass Yards Against</span></td>
                 <td class="statsCategory">{D_Passing[current].stats.Yds}</td>
             </tr>
             <tr>
